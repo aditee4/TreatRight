@@ -2,14 +2,14 @@
 <html>
 <head>
     <title>Create Event - Treat Right</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <script src="js/script.js"></script>
 </head>
 <body>
     <div class="container">
         <h1>Create Event on Treat Right</h1>
         
-        <form>
+        <form id="create-event-form">
             <label for="event-name">Event Name:</label>
             <input type="text" id="event-name" name="event-name" required>
             
@@ -23,7 +23,7 @@
             <input type="radio" id="per-head-budget" name="budget-type" value="per-head" required>
             <label for="per-head-budget">Per Head</label>
             <input type="radio" id="overall-budget" name="budget-type" value="overall" required>
-            <label for "overall-budget">Overall</label>
+            <label for="overall-budget">Overall</label>
 
             <input type="number" id="budget-amount" name="budget-amount" required>
 
@@ -32,4 +32,3 @@
     </div>
 </body>
 </html>
-
