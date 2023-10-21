@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Event - Treat Right</title>
+    <!-- Add your CSS link here -->
+</head>
+<body>
+    <h1>Create Event on Treat Right</h1>
+
+    <form>
+        <label for="event-name">Event Name:</label>
+        <input type="text" id="event-name" name="event-name" required>
+        
+        <label for="num-people">Number of People:</label>
+        <input type="number" id="num-people" name="num-people" required>
+
+        <label for="contact-info">Contact Information:</label>
+        <textarea id="contact-info" name="contact-info" rows="4" required></textarea>
+
+        <label>Budget:</label>
+        <input type="radio" id="per-head-budget" name="budget-type" value="per-head" required>
+        <label for="per-head-budget">Per Head</label>
+        <input type="radio" id="overall-budget" name="budget-type" value="overall" required>
+        <label for="overall-budget">Overall</label>
+
+        <input type="number" id="budget-amount" name="budget-amount" required>
+
+        <button type="submit">Create Event</button>
+    </form>
+
+    <!-- Add your JavaScript link here -->
+</body>
+</html>
