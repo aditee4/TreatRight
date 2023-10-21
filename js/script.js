@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function () {
         budgetAmount.disabled = !budgetAmount.disabled;
     });
 
-    const createEventForm = document.querySelector("form");
+    const createEventForm = document.getElementById("create-event-form");
     createEventForm.addEventListener("submit", function (event) {
         event.preventDefault();
         
@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
 // JavaScript for join-event.html
 
 document.addEventListener("DOMContentLoaded", function () {
-    const joinEventForm = document.querySelector("form");
+    const joinEventForm = document.getElementById("join-event-form");
     joinEventForm.addEventListener("submit", function (event) {
         event.preventDefault();
         
